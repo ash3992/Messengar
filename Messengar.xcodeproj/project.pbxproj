@@ -21,6 +21,7 @@
 		BEAB410F2774C66A008FDBF7 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB410E2774C66A008FDBF7 /* VideoPlayerViewController.swift */; };
 		BEAB41142774C690008FDBF7 /* NewConverstionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41132774C690008FDBF7 /* NewConverstionViewController.swift */; };
 		BEAB41192774C6A6008FDBF7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41182774C6A6008FDBF7 /* ProfileViewController.swift */; };
+		BEAB41222774D014008FDBF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41212774D014008FDBF7 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BEAB410E2774C66A008FDBF7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		BEAB41132774C690008FDBF7 /* NewConverstionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConverstionViewController.swift; sourceTree = "<group>"; };
 		BEAB41182774C6A6008FDBF7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BEAB41212774D014008FDBF7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			children = (
 				BEAB40BD2774C210008FDBF7 /* AppDelegate.swift */,
 				BEAB40BF2774C210008FDBF7 /* SceneDelegate.swift */,
+				BEAB41212774D014008FDBF7 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				BEAB41052774C62B008FDBF7 /* RegisterViewController.swift in Sources */,
 				BEAB40C22774C210008FDBF7 /* ConversationsViewController.swift in Sources */,
 				BEAB410F2774C66A008FDBF7 /* VideoPlayerViewController.swift in Sources */,
+				BEAB41222774D014008FDBF7 /* Extensions.swift in Sources */,
 				BEAB40BE2774C210008FDBF7 /* AppDelegate.swift in Sources */,
 				BEAB41192774C6A6008FDBF7 /* ProfileViewController.swift in Sources */,
 				BEAB40C02774C210008FDBF7 /* SceneDelegate.swift in Sources */,
