@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		BEAB40BE2774C210008FDBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40BD2774C210008FDBF7 /* AppDelegate.swift */; };
 		BEAB40C02774C210008FDBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40BF2774C210008FDBF7 /* SceneDelegate.swift */; };
-		BEAB40C22774C210008FDBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40C12774C210008FDBF7 /* ViewController.swift */; };
+		BEAB40C22774C210008FDBF7 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40C12774C210008FDBF7 /* ConversationsViewController.swift */; };
 		BEAB40C52774C210008FDBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB40C32774C210008FDBF7 /* Main.storyboard */; };
 		BEAB40C72774C213008FDBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAB40C62774C213008FDBF7 /* Assets.xcassets */; };
 		BEAB40CA2774C213008FDBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB40C82774C213008FDBF7 /* LaunchScreen.storyboard */; };
 		BEAB40D52774C213008FDBF7 /* MessengarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40D42774C213008FDBF7 /* MessengarTests.swift */; };
 		BEAB40E02774C214008FDBF7 /* MessengarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40DF2774C214008FDBF7 /* MessengarUITests.swift */; };
+		BEAB40FD2774C614008FDBF7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB40FC2774C614008FDBF7 /* LoginViewController.swift */; };
+		BEAB41052774C62B008FDBF7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41042774C62B008FDBF7 /* RegisterViewController.swift */; };
+		BEAB410A2774C653008FDBF7 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41092774C653008FDBF7 /* PhotoViewerViewController.swift */; };
+		BEAB410F2774C66A008FDBF7 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB410E2774C66A008FDBF7 /* VideoPlayerViewController.swift */; };
+		BEAB41142774C690008FDBF7 /* NewConverstionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41132774C690008FDBF7 /* NewConverstionViewController.swift */; };
+		BEAB41192774C6A6008FDBF7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB41182774C6A6008FDBF7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		BEAB40BA2774C210008FDBF7 /* Messengar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messengar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAB40BD2774C210008FDBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEAB40BF2774C210008FDBF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEAB40C12774C210008FDBF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEAB40C12774C210008FDBF7 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		BEAB40C42774C210008FDBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEAB40C62774C213008FDBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEAB40C92774C213008FDBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		BEAB40DB2774C214008FDBF7 /* MessengarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAB40DF2774C214008FDBF7 /* MessengarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengarUITests.swift; sourceTree = "<group>"; };
 		BEAB40E12774C214008FDBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAB40FC2774C614008FDBF7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEAB41042774C62B008FDBF7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BEAB41092774C653008FDBF7 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		BEAB410E2774C66A008FDBF7 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		BEAB41132774C690008FDBF7 /* NewConverstionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConverstionViewController.swift; sourceTree = "<group>"; };
+		BEAB41182774C6A6008FDBF7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,11 @@
 		BEAB40BC2774C210008FDBF7 /* Messengar */ = {
 			isa = PBXGroup;
 			children = (
-				BEAB40BD2774C210008FDBF7 /* AppDelegate.swift */,
-				BEAB40BF2774C210008FDBF7 /* SceneDelegate.swift */,
-				BEAB40C12774C210008FDBF7 /* ViewController.swift */,
-				BEAB40C32774C210008FDBF7 /* Main.storyboard */,
-				BEAB40C62774C213008FDBF7 /* Assets.xcassets */,
-				BEAB40C82774C213008FDBF7 /* LaunchScreen.storyboard */,
+				BEAB40F42774C417008FDBF7 /* Views */,
+				BEAB40F32774C3F7008FDBF7 /* Resources */,
+				BEAB40F22774C3E0008FDBF7 /* ViewModels */,
+				BEAB40F12774C3C2008FDBF7 /* Models */,
+				BEAB40F02774C3B3008FDBF7 /* Controllers */,
 				BEAB40CB2774C213008FDBF7 /* Info.plist */,
 			);
 			path = Messengar;
@@ -126,6 +137,69 @@
 				BEAB40E12774C214008FDBF7 /* Info.plist */,
 			);
 			path = MessengarUITests;
+			sourceTree = "<group>";
+		};
+		BEAB40F02774C3B3008FDBF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB411D2774C77B008FDBF7 /* Login */,
+				BEAB40C12774C210008FDBF7 /* ConversationsViewController.swift */,
+				BEAB41092774C653008FDBF7 /* PhotoViewerViewController.swift */,
+				BEAB410E2774C66A008FDBF7 /* VideoPlayerViewController.swift */,
+				BEAB41132774C690008FDBF7 /* NewConverstionViewController.swift */,
+				BEAB41182774C6A6008FDBF7 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BEAB40F12774C3C2008FDBF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEAB40F22774C3E0008FDBF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEAB40F32774C3F7008FDBF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB40BD2774C210008FDBF7 /* AppDelegate.swift */,
+				BEAB40BF2774C210008FDBF7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEAB40F42774C417008FDBF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB40F52774C487008FDBF7 /* Storyboards */,
+				BEAB40C62774C213008FDBF7 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEAB40F52774C487008FDBF7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB40C32774C210008FDBF7 /* Main.storyboard */,
+				BEAB40C82774C213008FDBF7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BEAB411D2774C77B008FDBF7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB41042774C62B008FDBF7 /* RegisterViewController.swift */,
+				BEAB40FC2774C614008FDBF7 /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEAB40C22774C210008FDBF7 /* ViewController.swift in Sources */,
+				BEAB41142774C690008FDBF7 /* NewConverstionViewController.swift in Sources */,
+				BEAB40FD2774C614008FDBF7 /* LoginViewController.swift in Sources */,
+				BEAB41052774C62B008FDBF7 /* RegisterViewController.swift in Sources */,
+				BEAB40C22774C210008FDBF7 /* ConversationsViewController.swift in Sources */,
+				BEAB410F2774C66A008FDBF7 /* VideoPlayerViewController.swift in Sources */,
 				BEAB40BE2774C210008FDBF7 /* AppDelegate.swift in Sources */,
+				BEAB41192774C6A6008FDBF7 /* ProfileViewController.swift in Sources */,
 				BEAB40C02774C210008FDBF7 /* SceneDelegate.swift in Sources */,
+				BEAB410A2774C653008FDBF7 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Messengar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +537,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Messengar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
